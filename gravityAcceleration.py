@@ -1,8 +1,7 @@
 import math 
 
 
-t1 = 0.3638
-t3 = 0.0807
+
 class GravityAcceleration:
 
     def __init__(self, t1, t3):
@@ -14,8 +13,7 @@ class GravityAcceleration:
         self.t3 = t3
 
     def gravityAcceleration(self):
-        self.t1 = t1
-        self.t3 = t3
+
 
         v1 = 0.1 * 2 / self.t1
         a = v1 / self.t1
@@ -27,6 +25,10 @@ class GravityAcceleration:
         return result
         # print(f'{result:.4f}')
 
-a = GravityAcceleration(0.3638, 0.0807)
+a = GravityAcceleration(0.3792, 0.0807)
 print(a.gravityAcceleration())
-# print(gravityAcceleration(t1, t3))
+print(1.3757+1.2311+1.3168+1.2922+1.2798)
+print(6.4956/5)
+print(1.2991**2)
+print(1.6876*0.08)
+print(2/0.1350)
